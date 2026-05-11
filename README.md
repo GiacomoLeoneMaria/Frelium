@@ -12,7 +12,8 @@
 
 | Platform | Status |
 |----------|--------|
-| **iOS (iPhone / iPad)** | Coming Soon |
+| **iOS (iPhone / iPad)** | Available on the App Store |
+| **Android** | Coming Soon |
 
 ---
 
@@ -55,6 +56,22 @@ Frelium is a mobile application built for people always on the move: backpackers
 - **Transaction List**: With category and type filters
 - **Category Filters**: Horizontally scrollable chips
 - **Quick Access**: Currency and target settings always at hand
+
+---
+
+### Calendario / Calendar
+
+**🇮🇹 Italiano:**
+- **Vista Mensile**: Calendario interattivo con indicatori sui giorni che contengono transazioni
+- **Dettaglio Giornaliero**: Tocca un giorno per vedere tutte le entrate e uscite di quella data
+- **Navigazione Mese per Mese**: Scorri avanti e indietro tra i mesi direttamente dal calendario
+- **Riepilogo Giornaliero**: Totale entrate e uscite per il giorno selezionato
+
+**🇬🇧 English:**
+- **Monthly View**: Interactive calendar with indicators on days that have transactions
+- **Daily Detail**: Tap a day to see all income and expense entries for that date
+- **Month-by-Month Navigation**: Scroll forward and back through months directly from the calendar
+- **Daily Summary**: Total income and expenses for the selected day
 
 ---
 
@@ -214,6 +231,24 @@ Frelium is a mobile application built for people always on the move: backpackers
 - **`expo-file-system`**: For backup file management
 - **`expo-sharing`**: To share the exported JSON file
 - **`expo-document-picker`**: To select a JSON file to import
+
+---
+
+## Roadmap / Coming Soon
+
+**🇮🇹 Italiano:**
+- 🔜 **Android**: Pubblicazione su Google Play
+- 🔜 **Tema Dark**: Supporto alla modalità scura
+- 🔜 **Fatture**: Generazione e invio di fatture ai clienti
+- 🔜 **Grafici Avanzati**: Visualizzazioni temporali e trend mensili
+- 🔜 **Widget**: Widget per la schermata home con il saldo del giorno
+
+**🇬🇧 English:**
+- 🔜 **Android**: Google Play release
+- 🔜 **Dark Theme**: Dark mode support
+- 🔜 **Invoices**: Generate and send invoices to clients
+- 🔜 **Advanced Charts**: Time-series visualizations and monthly trends
+- 🔜 **Widget**: Home screen widget with daily balance
 
 ---
 
