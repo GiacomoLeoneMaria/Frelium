@@ -108,14 +108,46 @@ Frelium is a mobile application built for people always on the move: backpackers
 **🇮🇹 Italiano:**
 - **Crea Clienti**: Nome, colore identificativo e tariffa oraria
 - **Foto Profilo**: Scatta una foto o sceglila dalla galleria
+- **Dati di Fatturazione**: Sezione opzionale con email, indirizzo e identificativi fiscali, precompilata automaticamente in fase di creazione fattura
 - **Statistiche per Cliente**: Totale guadagnato, ore totali e tariffa effettiva
 - **Elimina con Long-Press**: Premi a lungo su un cliente per eliminarlo
 
 **🇬🇧 English:**
 - **Create Clients**: Name, identifying color, and hourly rate
 - **Profile Photo**: Take a photo or choose from gallery
+- **Billing Details**: Optional section with email, address, and tax identifiers, auto-filled when creating an invoice
 - **Per-Client Stats**: Total earned, total hours, and effective rate
 - **Long-Press to Delete**: Press and hold a client to delete it
+
+---
+
+### Fatture / Invoices
+
+**🇮🇹 Italiano:**
+- **Crea Fatture**: Numerazione automatica per anno (es. `2026/001`), data di emissione e scadenza con calendario integrato
+- **Collega un Cliente**: Seleziona un cliente e precompila automaticamente i dati di fatturazione dal suo profilo (modificabili per singola fattura, con opzione per salvare le modifiche sul profilo)
+- **Importa da Transazioni**: Aggiungi come voci di fattura le transazioni di entrata di un cliente filtrate per mese
+- **Voci Manuali**: Aggiungi voci libere con descrizione, quantità e prezzo unitario
+- **IVA/Tasse Personalizzabile**: Percentuale configurabile con etichetta personalizzabile (IVA, GST, Tax...)
+- **Stato Fattura**: Bozza / Inviata / Pagata, con filtri dedicati nell'elenco
+- **Anteprima e PDF**: Anteprima della fattura prima di condividerla, generazione PDF e condivisione tramite il pannello nativo di condivisione
+- **Segna come Inviata/Pagata**: Aggiorna lo stato direttamente dopo la condivisione o dalla fattura stessa
+- **Elimina con Long-Press**: Premi a lungo su una fattura per eliminarla
+- **Profilo Mittente**: Impostazioni dedicate per i tuoi dati (nome, logo, indirizzo, identificativi fiscali, coordinate bancarie) con etichette dei campi personalizzabili in base al paese
+- **Promemoria Dati Mancanti**: Banner che segnala i campi obbligatori del profilo mittente non ancora compilati
+
+**🇬🇧 English:**
+- **Create Invoices**: Year-scoped auto-numbering (e.g. `2026/001`), issue and due date with built-in calendar
+- **Attach a Client**: Select a client to auto-fill billing details from their profile (editable per invoice, with an option to save changes back to the profile)
+- **Import from Transactions**: Add a client's income transactions, filtered by month, as invoice line items
+- **Manual Line Items**: Add free-form items with description, quantity, and unit price
+- **Customizable Tax**: Configurable tax rate with a customizable label (VAT, GST, Tax...)
+- **Invoice Status**: Draft / Sent / Paid, with dedicated filters in the list
+- **Preview and PDF**: Preview the invoice before sharing, generate a PDF, and share it via the native share sheet
+- **Mark as Sent/Paid**: Update status right after sharing or from the invoice itself
+- **Long-Press to Delete**: Press and hold an invoice to delete it
+- **Sender Profile**: Dedicated settings for your details (name, logo, address, tax identifiers, bank details) with field labels customizable per country
+- **Missing Details Reminder**: Banner flagging required sender profile fields that haven't been filled in yet
 
 ---
 
@@ -221,16 +253,18 @@ Frelium is a mobile application built for people always on the move: backpackers
 ### Media & File / Media & Files
 
 **🇮🇹 Italiano:**
-- **`expo-image-picker`**: Per selezionare o scattare foto profilo dei clienti
-- **`expo-file-system`**: Per la gestione dei file di backup
-- **`expo-sharing`**: Per condividere il file JSON di esportazione
+- **`expo-image-picker`**: Per selezionare o scattare foto profilo dei clienti e il logo aziendale
+- **`expo-file-system`**: Per la gestione dei file di backup e dei PDF generati
+- **`expo-sharing`**: Per condividere il file JSON di esportazione e i PDF delle fatture
 - **`expo-document-picker`**: Per selezionare un file JSON da importare
+- **`expo-print`**: Per generare l'anteprima e il PDF delle fatture
 
 **🇬🇧 English:**
-- **`expo-image-picker`**: To select or take client profile photos
-- **`expo-file-system`**: For backup file management
-- **`expo-sharing`**: To share the exported JSON file
+- **`expo-image-picker`**: To select or take client profile photos and the company logo
+- **`expo-file-system`**: For backup file management and generated PDFs
+- **`expo-sharing`**: To share the exported JSON file and invoice PDFs
 - **`expo-document-picker`**: To select a JSON file to import
+- **`expo-print`**: To generate the invoice preview and PDF
 
 ---
 
@@ -239,15 +273,11 @@ Frelium is a mobile application built for people always on the move: backpackers
 **🇮🇹 Italiano:**
 - 🔜 **Android**: Pubblicazione su Google Play
 - 🔜 **Tema Dark**: Supporto alla modalità scura
-- 🔜 **Fatture**: Generazione e invio di fatture ai clienti
-- 🔜 **Grafici Avanzati**: Visualizzazioni temporali e trend mensili
 - 🔜 **Widget**: Widget per la schermata home con il saldo del giorno
 
 **🇬🇧 English:**
 - 🔜 **Android**: Google Play release
 - 🔜 **Dark Theme**: Dark mode support
-- 🔜 **Invoices**: Generate and send invoices to clients
-- 🔜 **Advanced Charts**: Time-series visualizations and monthly trends
 - 🔜 **Widget**: Home screen widget with daily balance
 
 ---
