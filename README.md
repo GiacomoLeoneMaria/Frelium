@@ -132,7 +132,6 @@ Frelium is a mobile application built for people always on the move: backpackers
 - **Stato Fattura**: Bozza / Inviata / Pagata, con filtri dedicati nell'elenco
 - **Anteprima e PDF**: Anteprima della fattura prima di condividerla, generazione PDF e condivisione tramite il pannello nativo di condivisione
 - **Segna come Inviata/Pagata**: Aggiorna lo stato direttamente dopo la condivisione o dalla fattura stessa
-- **Elimina con Long-Press**: Premi a lungo su una fattura per eliminarla
 - **Profilo Mittente**: Impostazioni dedicate per i tuoi dati (nome, logo, indirizzo, identificativi fiscali, coordinate bancarie) con etichette dei campi personalizzabili in base al paese
 - **Promemoria Dati Mancanti**: Banner che segnala i campi obbligatori del profilo mittente non ancora compilati
 
@@ -145,7 +144,6 @@ Frelium is a mobile application built for people always on the move: backpackers
 - **Invoice Status**: Draft / Sent / Paid, with dedicated filters in the list
 - **Preview and PDF**: Preview the invoice before sharing, generate a PDF, and share it via the native share sheet
 - **Mark as Sent/Paid**: Update status right after sharing or from the invoice itself
-- **Long-Press to Delete**: Press and hold an invoice to delete it
 - **Sender Profile**: Dedicated settings for your details (name, logo, address, tax identifiers, bank details) with field labels customizable per country
 - **Missing Details Reminder**: Banner flagging required sender profile fields that haven't been filled in yet
 
